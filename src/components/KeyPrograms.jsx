@@ -1,38 +1,13 @@
 "use client";
 
 import { Typography } from "@mui/material";
+import {programs} from "@components/lib/CardLinks"
 
 export default function KeyPrograms() {
-  const programs = [
-    {
-      title: "Peace Building And Social Justice",
-      description:
-        "At UNKO, we prioritize the promotion of peace and social justice, particularly in areas affected by conflict. Our initiatives focus on fostering dialogue, encouraging reconciliation, and empowering communities to resolve conflicts amicably.",
-      link: "#",
-    },
-    {
-      title: "Education And Empowerment",
-      description:
-        "Our programs aim to increase access to quality education by building and rehabilitating schools in underserved areas, providing scholarships to disadvantaged students, and promoting adult literacy and vocational training.",
-      link: "#",
-    },
-    {
-      title: "Climate Change, Disaster Risk Reduction, And Humanitarian Intervention",
-      description:
-        "UNKO is committed to addressing climate change and its impacts. Our programs focus on sustainable environmental practices, such as eco-friendly agriculture and water conservation.",
-      link: "#",
-    },
-    {
-      title: "WASH (Water, Sanitation, And Hygiene) And Health",
-      description:
-        "We prioritize improving health outcomes through access to clean water, sanitation, and healthcare services. Our initiatives include establishing sustainable water sources, promoting hygiene education, and enhancing healthcare accessibility.",
-      link: "#",
-    },
-  ];
+
 
   return (
     <div className="p-8">
-      {/* Header Section */}
       <Typography variant="h2" className="text-center text-green-600 font-bold mb-4">
         OUR KEY PROGRAMS
       </Typography>
@@ -44,7 +19,6 @@ export default function KeyPrograms() {
         Kenya through a comprehensive approach centered on six strategic programs.
       </Typography>
 
-      {/* Programs Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {programs.map((program, index) => (
           <div
