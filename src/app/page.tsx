@@ -26,7 +26,7 @@ export default function Home() {
                   className="w-full h-full object-cover brightness-75"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-                <div className="absolute inset-0 flex flex-col justify-center items-start px-8 max-w-2xl">
+                <div className="absolute inset-0 flex flex-col justify-center items-start px-8 max-w-2xl ml-10">
                   <h2 className="text-5xl font-extrabold text-white mb-4 text-left sm:text-6xl leading-tight">
                     {item.text}
                   </h2>
