@@ -1,5 +1,4 @@
 "use client";
-
 import {
   Carousel,
   CarouselContent,
@@ -12,33 +11,6 @@ import Image from "next/image";
 import {items} from "@components/lib/HomeLinks"
 
 export default function Home() {
-  // const items = [
-  //   {
-  //     src: "/image1.jpeg",
-  //     text: "Explore Mountains",
-  //     link: "/mountains"
-  //   },
-  //   {
-  //     src: "/image2.jpeg",
-  //     text: "Discover Beaches",
-  //     link: "/beaches"
-  //   },
-  //   {
-  //     src: "/image3.jpeg",
-  //     text: "Visit Cities",
-  //     link: "/cities"
-  //   },
-  //   {
-  //     src: "/image4.jpeg",
-  //     text: "Experience Forests",
-  //     link: "/forests"
-  //   },
-  //   {
-  //     src: "/image5.jpeg",
-  //     text: "Adventure Awaits",
-  //     link: "/adventures"
-  //   },
-  // ];
 
   return (
     <>
