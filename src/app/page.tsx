@@ -4,6 +4,7 @@ import { Button } from "@components/components/ui/button";
 import Image from "next/image";
 import { items } from "@components/lib/HomeLinks";
 import AboutUs from "@components/components/AboutUs"
+import KeyPrograms from "@components/components/KeyPrograms"
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <CarouselNext className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-white text-black rounded-full p-3 shadow-lg" />
       </Carousel>
       <AboutUs/>
+      <KeyPrograms/>
     </>
   );
 }
