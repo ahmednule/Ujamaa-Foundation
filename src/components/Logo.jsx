@@ -4,7 +4,7 @@ const Logo = () => {
       <img
         src="/ujamaa.png"
         alt="Logo"
-        style={{ marginLeft: '200px', height: '200px', width: '200px' }}
+        style={{ marginRight: '200px', height: '200px', width: '200px' }}
       />
     </>
   );
