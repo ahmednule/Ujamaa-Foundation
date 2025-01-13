@@ -8,7 +8,7 @@ import NavigationMenu from './Menu';
 
 const Header = () => {
   return (
-    <AppBar position="static" sx={{backgroundColor:"#e6e6e6"}}>
+    <AppBar position="sticky" sx={{backgroundColor:"#e6e6e6",top:0, zIndex:1200}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <div style={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
