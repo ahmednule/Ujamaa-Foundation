@@ -18,7 +18,6 @@ export default function Home() {
           {items.map((item, index) => (
             <CarouselItem key={index}>
               <div className="relative w-full h-screen">
-                {/* Background Image with brightness */}
                 <Image
                   src={item.src}
                   alt={`Carousel image ${index + 1}`}
@@ -26,13 +25,14 @@ export default function Home() {
                   height={600}
                   className="w-full h-full object-cover brightness-75"
                 />
-                {/* Overlay for darkening */}
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-                {/* Text and Button */}
                 <div className="absolute inset-0 flex flex-col justify-center items-start px-8 max-w-2xl">
                   <h2 className="text-5xl font-extrabold text-white mb-4 text-left sm:text-6xl leading-tight">
                     {item.text}
                   </h2>
+                  <p className="text-lg text-white mb-6 leading-relaxed">
+                    {item.description}
+                  </p>
                   <Button
                     asChild
                     variant="default"
@@ -45,11 +45,9 @@ export default function Home() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        {/* Carousel Controls */}
         <CarouselPrevious className="absolute top-1/2 transform -translate-y-1/2 left-4 bg-white text-black rounded-full p-3 shadow-lg" />
         <CarouselNext className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-white text-black rounded-full p-3 shadow-lg" />
       </Carousel>
     </>
   );
 }
-
