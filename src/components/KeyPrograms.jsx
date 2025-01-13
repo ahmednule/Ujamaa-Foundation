@@ -1,14 +1,15 @@
 "use client";
 
 import { Typography } from "@mui/material";
-import {programs} from "@components/lib/CardLinks"
+import { programs } from "@components/lib/CardLinks";
 
 export default function KeyPrograms() {
-
-
   return (
     <div className="p-8">
-      <Typography variant="h2" className="text-center text-green-600 font-bold mb-4">
+      <Typography
+        variant="h2"
+        className="text-center text-green-600 font-bold mb-4"
+      >
         OUR KEY PROGRAMS
       </Typography>
       <Typography
@@ -33,13 +34,13 @@ export default function KeyPrograms() {
             </Typography>
             <Typography
               variant="body2"
-              className="text-gray-700 mb-6 leading-relaxed"
+              className="text-gray-700 leading-relaxed mb-6"
             >
               {program.description}
             </Typography>
             <a
               href={program.link}
-              className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition"
+              className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition inline-block mt-2"
             >
               Read More →
             </a>
