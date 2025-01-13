@@ -1,34 +1,38 @@
 "use client";
 
-import { Typography, Box } from "@mui/material";
+import { Typography } from "@mui/material";
 
 export default function AboutUs() {
   return (
-    <Box sx={{ padding: "2rem", display: "flex", alignItems: "center", gap: "2rem" }}>
-      <Box sx={{ flex: 1 }}>
+    <div className="p-8 flex flex-col md:flex-row items-center gap-8">
+      <div className="flex-1">
         <Typography
           variant="h5"
-          sx={{ color: "green", fontWeight: "bold", marginBottom: "1rem" }}
+          className="text-green-500 font-bold mb-4"
         >
-          Ujamaa Foundation, Sowing The Future.
+          Ujamaa Foundation, Sowing The Future.aas
         </Typography>
-        <Typography variant="h3" sx={{ color: "#ADD8E6", fontWeight: "bold", marginBottom: "1rem" }}>
+        <Typography
+          variant="h3"
+          className="text-[#ADD8E6] font-bold mb-4"
+        >
           ABOUT US
         </Typography>
-        <Typography variant="body1" sx={{ lineHeight: 1.8 }}>
+        <Typography variant="body1" className="leading-relaxed">
           Ujamaa Foundation is a non-profit, community-based, and youth-led organization
           registered in 2022 under the Department of Social Protection in Wajir County,
           Kenya. The organization is committed to empowering communities, particularly in
           North Eastern Kenya, through sustainable development initiatives.
         </Typography>
-      </Box>
-      <Box sx={{ flex: 1 }}>
+      </div>
+
+      <div className="flex-1">
         <img
-          src="/image6.jpeg" 
+          src="/image6.jpeg"
           alt="Community Support"
-          style={{ width: "100%", borderRadius: "8px" }}
+          className="w-full rounded-lg"
         />
-      </Box>
-    </Box>
+      </div>
+    </div>
   );
 }
