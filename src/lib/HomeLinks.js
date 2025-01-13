@@ -1,3 +1,4 @@
+"use client"
 export const items = [
     {
       src: "/image1.jpeg",
