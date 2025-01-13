@@ -1,28 +1,37 @@
-"use client"
 export const items = [
     {
       src: "/image1.jpeg",
       text: "Who We Are",
-      link: "/who-we-are"
+      description:
+        "Learn more about our mission, vision, and the people driving positive change.",
+      link: "/who-we-are",
     },
     {
       src: "/image2.jpeg",
       text: "Our Programs",
-      link: "/our-programs"
+      description:
+        "Discover the initiatives we run to promote peace, social justice, and development.",
+      link: "/our-programs",
     },
     {
       src: "/image3.jpeg",
       text: "Latest Activities",
-      link: "/latest-activities"
+      description:
+        "Stay up to date with our recent projects and the impact we're making worldwide.",
+      link: "/latest-activities",
     },
     {
       src: "/image4.jpeg",
       text: "Contact Us",
-      link: "/contact-us"
+      description:
+        "We'd love to hear from you! Reach out to us for inquiries, collaborations, or support.",
+      link: "/contact-us",
     },
     {
       src: "/image5.jpeg",
       text: "Home",
-      link: "/"
+      description: "Welcome to our homepage. Explore and learn more about us!",
+      link: "/",
     },
   ];
+  
