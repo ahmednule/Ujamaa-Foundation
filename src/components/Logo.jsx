@@ -1,0 +1,13 @@
+const Logo = () => {
+  return (
+    <>
+      <img
+        src="/ujamaa.png"
+        alt="Logo"
+        style={{ marginLeft: '200px', height: '200px', width: '200px' }}
+      />
+    </>
+  );
+};
+
+export default Logo;
