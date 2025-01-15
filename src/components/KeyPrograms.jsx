@@ -14,7 +14,7 @@ export default function KeyPrograms() {
       </Typography>
       <Typography
         variant="body1"
-        className="text-center text-gray-600 mb-8 max-w-3xl mx-auto"
+        className="text-center mb-4"
       >
         We are committed to transforming the lives of marginalized communities in northern
         Kenya through a comprehensive approach centered on six strategic programs.
