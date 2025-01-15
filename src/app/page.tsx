@@ -7,6 +7,7 @@ import AboutUs from "@components/components/AboutUs"
 import KeyPrograms from "@components/components/KeyPrograms"
 import Footer from "@components/components/Footer"
 import OurWork from "@components/components/ui/OurWork"
+import LatestNews from "@components/components/LatestNews"
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
       <AboutUs/>
       <KeyPrograms/>
       <OurWork/>
+      <LatestNews/>
       <Footer/>
     </>
   );
