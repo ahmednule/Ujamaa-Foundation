@@ -1,6 +1,8 @@
 import { Typography, Card, CardHeader, CardContent, Box } from "@mui/material";
 import SchoolIcon from '@mui/icons-material/School';
+import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
 import MyThemeProvider from "@components/lib/MyThemeProvider";
+import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
 
 export default function OurWork() {
     return (
@@ -30,7 +32,7 @@ export default function OurWork() {
                 </Card>
                 <Card sx={{maxWidth:250, borderRadius:"16px"}}>
                     <CardHeader
-                        avatar={<SchoolIcon />}
+                        avatar={<SportsKabaddiIcon />}
                         title="Conflicts"
                         subheader="Conflict Resolution"
                     />
@@ -41,18 +43,7 @@ export default function OurWork() {
                 </Card>
                 <Card sx={{maxWidth:250, borderRadius:"16px"}}>
                     <CardHeader
-                        avatar={<SchoolIcon />}
-                        title="Conflicts"
-                        subheader="Conflict Resolution"
-                    />
-                    <CardContent>
-                        <Typography variant="h3">30+</Typography>
-                        <Typography>Conflict Resolution amoung the communities by Training and Capacity Building among the communities</Typography>
-                    </CardContent>
-                </Card>
-                <Card sx={{maxWidth:250, borderRadius:"16px"}}>
-                    <CardHeader
-                        avatar={<SchoolIcon />}
+                        avatar={<DinnerDiningIcon />}
                         title="Relief "
                         subheader="Food Distribution"
                     />
