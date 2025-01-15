@@ -5,6 +5,7 @@ import Image from "next/image";
 import { items } from "@components/lib/HomeLinks";
 import AboutUs from "@components/components/AboutUs"
 import KeyPrograms from "@components/components/KeyPrograms"
+import Footer from "@components/components/Footer"
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
       </Carousel>
       <AboutUs/>
       <KeyPrograms/>
+      <Footer/>
     </>
   );
 }
