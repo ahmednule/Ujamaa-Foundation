@@ -23,6 +23,24 @@ export const cardData = [
         expandedDescription: "For a pastoralist child, this has never been an easy thing. Pastoralists are often split between sending their children to school or getting involved in finding means of survival through herding animals for boys and looking for water and other household chores for girls. Literacy levels in theseareas are very low and school dropout levels are high as children drop out of school when natural disasters like droughts occur.",
         image: "image9.png",
       },
+      {
+        title: "Beta",
+        description: "Ujamaa is building peace within the communities through ...",
+        expandedDescription: "Empowering Youth: Recognizing the vital role of youth in shaping the future, we are dedicated to empowering young people to become active agents of good leadership and positive change within their communities .",
+        image: "image8.jpg",
+      },
+      {
+        title: "International Peace Day",
+        description: "Ujamaa Foundation was honored to receive invite from the county government ...",
+        expandedDescription: "Ujamaa Foundation was honored to receive invite from the county government of West Pokot after tremendous working on Youth supporting programs with the county government.",
+        image: "image10.png",
+      },
+      {
+        title: "Achievements and Awards",
+        description: "Ujamaa Foundation is proud to be awarded Kenya Moika Awards ...",
+        expandedDescription: "Ujamaa Foundation is proud to be awarded Kenya Moika Awards 2024 as the best charity foundation in Wajir County.",
+        image: "image11.png",
+      },
       
     
   
