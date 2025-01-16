@@ -6,22 +6,24 @@ export default function Footer(){
     return (
         <>
         <div className="bg-[#ADD8E6] grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2" >
-
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",  borderRadius:"16px"}} >
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px", marginRight:"20px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
-                    ABOUT US
+                   ABOUT UJAMAA
                 </Typography>
-                <Typography variant="body1" className="text-balance">
-                Ujamaa Foundation is a not for profit, Community based, non governmental Youth led
-organization registered in the department of social development, Wajir County in 2022.
-Ujamaa Foundation works with established youth groups and women groups in the six sub
-counties in empowering the community on development issues, Quality Education, Health,
-environmental protection and climate change mitigation and Peace justice and strong institutions.
-                </Typography>
+               <Typography variant="body1">
+               Ujamaa Foundation is a <b>not for profit </b>, Community based, <strong>non governmental Youth</strong> led
+               organization registered in the department of social development, <strong>Wajir County in 2022</strong>.
+               <br/>
+               <br/>
+               Ujamaa Foundation works with established youth groups and women groups in the six sub
+                counties in empowering the community on development issues, Quality Education, Health,
+                environmental protection and climate change mitigation and Peace justice and strong institutions.
+               </Typography>
                 </CardContent>
         </Card>
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px"}} >
+     
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px", marginRight:"20px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
                     OUR KEY PROGRAMS
@@ -45,7 +47,7 @@ environmental protection and climate change mitigation and Peace justice and str
                 </List>
                 </CardContent>
         </Card>
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px"}} >
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px", marginRight:"20px", marginBottom:"20px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
                    CONTACT INFOMATION
