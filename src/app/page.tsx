@@ -5,7 +5,6 @@ import Image from "next/image";
 import { items } from "@components/lib/HomeLinks";
 import AboutUs from "@components/components/AboutUs"
 import KeyPrograms from "@components/components/KeyPrograms"
-// import Footer from "@components/components/Footer"
 import OurWork from "@components/components/ui/OurWork"
 import LatestNews from "@components/components/LatestNews"
 import TargetBeneficiaries from "@components/components/ui/TargetBeneficiaries"
@@ -53,7 +52,6 @@ export default function Home() {
       <OurWork/>
       <LatestNews/>
       <TargetBeneficiaries/>
-      {/* <Footer/> */}
     </>
   );
 }
