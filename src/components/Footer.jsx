@@ -1,6 +1,7 @@
 "use client"
 import { Typography, Card, CardContent,Box, List, ListItem, Divider, ListItemIcon, ListItemText, ListItemButton } from "@mui/material"
 // import { PhoneEnabledIcon, EmailIcon, LocationOnIcon,FacebookIcon,XIcon,InstagramIcon} from "@mui/icons-material"
+import CopyRight from "@components/components/ui/CopyRight"
 export default function Footer(){
     return (
         <>
@@ -69,6 +70,7 @@ environmental protection and climate change mitigation and Peace justice and str
                 </CardContent>
         </Card>
         </div>
+        <CopyRight/>
         </>
     )
 }
