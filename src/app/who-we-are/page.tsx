@@ -2,6 +2,7 @@
 import AboutUs from "@components/components/AboutUs"
 import AboutusCarosel from "@components/components/ui/AboutusCarosel"
 import OurVision from "@components/components/ui/OurVision"
+import OurMission from "@components/components/ui/OurMission"
 export default function whoWeare(){
     return(
         <>
@@ -9,6 +10,7 @@ export default function whoWeare(){
         <AboutUs/>
         <div>
             <OurVision/>
+            <OurMission/>
         </div>
         </>
     )
