@@ -1,7 +1,8 @@
+"use client"
 import { Card, Typography, CardContent } from "@mui/material"
 export default function OurVision(){
     return( 
-            <div>
+            <div className="max-w-">
             <Card>
                 <CardContent>
                     <Typography variant="h3">
