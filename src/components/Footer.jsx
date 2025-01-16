@@ -1,8 +1,12 @@
-import { Typography } from "@mui/material"
+import { Typography, Card, CardHeader, CardContent } from "@mui/material"
 export default function Footer(){
     return (
         <>
-        <Typography variant="h2">This is the footer section of the website</Typography>
+        <Card className="m-5" sx={{backgroundColor:"lightblue"}}>
+            <Typography variant="h4" color="black">
+                    ABOUT US
+                </Typography>
+        </Card>
         </>
     )
 }

@@ -22,11 +22,9 @@ export default function TargetBeneficiaries() {
                 </CardTitle>
                 <CardContent>
                     <Typography variant="body1" className="text-balance" style={{maxWidth:"700px"}}> 
-                    Ujamaa Foundation is a not for profit, Community based, non governmental Youth led
-organization registered in the department of social development, Wajir County in 2022.
-Ujamaa Foundation works with established youth groups and women groups in the six sub
-counties in empowering the community on development issues, Quality Education, Health,
-environmental protection and climate change mitigation and Peace justice and strong institutions.
+                        Ujamaa Foundation works with established youth groups and women groups in the six sub
+                        counties in empowering the community on development issues, Quality Education, Health,
+                        environmental protection and climate change mitigation and Peace justice and strong institutions.
                     </Typography>
                     <div className="flex flex-row-reverse mb-7 relative">
                     <Button variant="contained" size="large">SUPPORT US</Button>
