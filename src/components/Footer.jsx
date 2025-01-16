@@ -1,4 +1,6 @@
-import { Typography, Card, CardHeader, CardContent,Box, List, ListItem, ListItemButton, Divider } from "@mui/material"
+"use client"
+import { Typography, Card, CardContent,Box, List, ListItem, Divider, ListItemIcon, ListItemText, ListItemButton } from "@mui/material"
+// import { PhoneEnabledIcon, EmailIcon, LocationOnIcon,FacebookIcon,XIcon,InstagramIcon} from "@mui/icons-material"
 export default function Footer(){
     return (
         <>
@@ -38,6 +40,30 @@ environmental protection and climate change mitigation and Peace justice and str
                     <Divider/>
                     <ListItem sx={{cursor:"pointer"}} component="a" href="#">
                     Training and Capacity Building
+                    </ListItem>
+                </List>
+                </CardContent>
+        </Card>
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px"}} >
+            <CardContent className="mt-3">
+            <Typography variant="h4" color="black">
+                   CONTACT INFOMATION
+                </Typography>
+                <List>
+                    <ListItem sx={{cursor:"pointer"}}>
+                    CEO Ujamaa Foundation: +254 722527325
+                    </ListItem>
+                    <Divider/>
+                    <ListItem sx={{cursor:"pointer"}}>
+                    Email: iabdirahman030@gmail.com 
+                    </ListItem>
+                    <Divider/>
+                    <ListItem sx={{cursor:"pointer"}}>
+                    Finance Manager: +254 722413082
+                    </ListItem>
+                    <Divider/>
+                    <ListItem sx={{cursor:"pointer"}} component="a" href="#">
+                    Email: abdullahialim2@gmail.com
                     </ListItem>
                 </List>
                 </CardContent>
