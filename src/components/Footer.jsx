@@ -4,9 +4,9 @@ import { Typography, Card, CardContent,Box, List, ListItem, Divider, ListItemIco
 export default function Footer(){
     return (
         <>
-        <Box sx={{backgroundColor:"lightblue"}}>
+        <div className="bg-[#ADD8E6] grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2" >
 
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px"}} >
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",  borderRadius:"16px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
                     ABOUT US
@@ -20,7 +20,7 @@ environmental protection and climate change mitigation and Peace justice and str
                 </Typography>
                 </CardContent>
         </Card>
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px"}} >
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
                     OUR KEY PROGRAMS
@@ -44,7 +44,7 @@ environmental protection and climate change mitigation and Peace justice and str
                 </List>
                 </CardContent>
         </Card>
-        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px"}} >
+        <Card className="max-w-96 max-h-50 " sx={{marginLeft:"40px",marginTop:"20px", borderRadius:"16px"}} >
             <CardContent className="mt-3">
             <Typography variant="h4" color="black">
                    CONTACT INFOMATION
@@ -62,13 +62,13 @@ environmental protection and climate change mitigation and Peace justice and str
                     Finance Manager: +254 722413082
                     </ListItem>
                     <Divider/>
-                    <ListItem sx={{cursor:"pointer"}} component="a" href="#">
+                    <ListItem sx={{cursor:"pointer"}}>
                     Email: abdullahialim2@gmail.com
                     </ListItem>
                 </List>
                 </CardContent>
         </Card>
-        </Box>
+        </div>
         </>
     )
 }
