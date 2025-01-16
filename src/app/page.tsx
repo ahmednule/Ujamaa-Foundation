@@ -8,6 +8,7 @@ import KeyPrograms from "@components/components/KeyPrograms"
 import Footer from "@components/components/Footer"
 import OurWork from "@components/components/ui/OurWork"
 import LatestNews from "@components/components/LatestNews"
+import TargetBeneficiaries from "@components/components/ui/TargetBeneficiaries"
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
       <KeyPrograms/>
       <OurWork/>
       <LatestNews/>
+      <TargetBeneficiaries/>
       <Footer/>
     </>
   );
