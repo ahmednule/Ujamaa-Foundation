@@ -4,6 +4,7 @@ import AboutusCarosel from "@components/components/ui/AboutusCarosel"
 import OurVision from "@components/components/ui/OurVision"
 import OurMission from "@components/components/ui/OurMission"
 import FutureGoals from "@components/components/ui/FutureGoals"
+import TargetBeneficiaries from "@components/components/ui/TargetBeneficiaries"
 export default function whoWeare(){
     return(
         <>
@@ -14,6 +15,7 @@ export default function whoWeare(){
             <OurMission/>
             <FutureGoals/>
         </div>
+        <TargetBeneficiaries/>
         </>
     )
 }
