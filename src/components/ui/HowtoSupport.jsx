@@ -1,13 +1,44 @@
 "use client"
-// import { Typography } from "@mui/material"
-export default function HowtoSupport(){
-    return (
-        <div>
-           <h2 className="m-8 text-5xl font-bold">How You Can support</h2>
-           <div className="max-w-96 border-green-500 rounded-lg shadow p-6 ">
-            <h2 className="text-4xl mb-3">Donate</h2>
-            <p>Your contribution help us provide essentiaal services and empower the communities we serve.</p>
-           </div>
-        </div>
-    )
+
+import {HowtoSupportData} from "@components/lib/HowtoSupportData"
+
+export default function HowtoSupport() {
+  return (
+    <div className="p-8 max-w-3xl mx-auto">
+      <h2 className="text-green-600 text-4xl font-bold mb-6">
+        How You Can Support
+      </h2>
+      
+      <p className="text-gray-700 mb-8">
+        Ujamaa Foundation relies on the support of individuals, institutions, and partners 
+        to continue its mission. Here's how you can get involved:
+      </p>
+
+      <div className="space-y-6">
+        {HowtoSupportData.map((item, index) => (
+          <div 
+            key={index}
+            className="border border-green-200 rounded-2xl p-6 flex items-start gap-4 shadow-sm hover:shadow-md transition-shadow"
+          >
+            <div className="p-3 bg-orange-400 rounded-full text-white">
+              {item.icon}
+            </div>
+            
+            <div>
+              <h3 className="text-green-600 text-2xl font-semibold mb-2">
+                {item.value}
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                {item.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <p className="mt-8 text-gray-700 text-center">
+        Together, we can uplift Northern Kenya and create lasting change for future generations.
+      </p>
+    </div>
+  );
 }
