@@ -2,6 +2,7 @@
 import ContactusCarosel from "@components/components/ui/ContactusCarosel"
 import HowtoSupport from "@components/components/ui/HowtoSupport"
 import ContactusForm from "@components/components/ui/ContactusForm"
+import OurLocation from "@components/components/ui/OurLocation"
 export default function contactUs(){
     return(
         <div>
@@ -10,6 +11,7 @@ export default function contactUs(){
         <HowtoSupport/>
         <ContactusForm/>
         </div>
+        <OurLocation/>
         </div>
     )
 }
