@@ -1,5 +1,5 @@
 "use client"
-export default OurcoreValuesData = [
+export const OurcoreValuesData = [
     {
         value: "Integrity",
         description: "We uphold the highest standards of honesty and transparency in all our actions, ensuring accountability to our beneficiaries, donors, and partners."
