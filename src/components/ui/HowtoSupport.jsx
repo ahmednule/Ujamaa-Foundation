@@ -37,7 +37,7 @@ export default function HowtoSupport() {
       </div>
 
       <p className="mt-8 text-gray-700 text-center">
-        Together, we can uplift Northern Kenya and create lasting change for future generations.
+        Together, We can uplift Communities and create long lasting change for the future.
       </p>
     </div>
   );
