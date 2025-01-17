@@ -1,7 +1,9 @@
-"use client"
-import { Typography } from "@mui/material"
+"use client" 
+import ContactusCarosel from "@components/components/ui/ContactusCarosel"
 export default function contactUs(){
     return(
-        <Typography variant="h2">This is the contact us page</Typography>
+        <div>
+            <ContactusCarosel/>
+        </div>
     )
 }

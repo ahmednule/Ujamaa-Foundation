@@ -1,3 +1,5 @@
+"use client"
+import { Typography } from "@mui/material"
 export default function ContactusCarosel(){
     return(
         <div
@@ -7,7 +9,7 @@ export default function ContactusCarosel(){
             filter:"brightness(.5)"
         }}
     >
-            <Typography variant="h2">Contact Us</Typography>
+         <b> <Typography variant="h2">Contact Us</Typography></b>
         </div>
     )
 }
