@@ -1,4 +1,6 @@
-const contactInfo = [
+import { Phone, Email } from "@mui/icons-material"
+
+export const contactInfo = [
     { icon: <Phone />, text: "+254 722527325", label: "CEO Ujamaa Foundation" },
     { icon: <Email />, text: "iabdirahman030@gmail.com", label: "CEO Email" },
     { icon: <Phone />, text: "+254 722413082", label: "Finance Manager" },

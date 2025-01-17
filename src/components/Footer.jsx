@@ -3,27 +3,30 @@ import { Typography, Card, CardContent, List, ListItem, Divider, ListItemIcon, L
 import { Phone, Email, LocationOn, Facebook, X, Instagram } from "@mui/icons-material"
 import CopyRight from "@components/components/ui/CopyRight"
 import Link from "next/link"
+import {socialLinks} from "@components/lib/socialLinks"
+import {contactInfo} from "@components/lib/contactInfo"
+import {programs} from "@components/lib/programs"
 
 export default function Footer() {
-    const socialLinks = [
-        { icon: <Facebook />, url: "#", label: "Facebook" },
-        { icon: <X />, url: "#", label: "X" },
-        { icon: <Instagram />, url: "#", label: "Instagram" }
-    ]
+    // const socialLinks = [
+    //     { icon: <Facebook />, url: "#", label: "Facebook" },
+    //     { icon: <X />, url: "#", label: "X" },
+    //     { icon: <Instagram />, url: "#", label: "Instagram" }
+    // ]
 
-    const contactInfo = [
-        { icon: <Phone />, text: "+254 722527325", label: "CEO Ujamaa Foundation" },
-        { icon: <Email />, text: "iabdirahman030@gmail.com", label: "CEO Email" },
-        { icon: <Phone />, text: "+254 722413082", label: "Finance Manager" },
-        { icon: <Email />, text: "abdullahialim2@gmail.com", label: "Finance Email" }
-    ]
+    // const contactInfo = [
+    //     { icon: <Phone />, text: "+254 722527325", label: "CEO Ujamaa Foundation" },
+    //     { icon: <Email />, text: "iabdirahman030@gmail.com", label: "CEO Email" },
+    //     { icon: <Phone />, text: "+254 722413082", label: "Finance Manager" },
+    //     { icon: <Email />, text: "abdullahialim2@gmail.com", label: "Finance Email" }
+    // ]
 
-    const programs = [
-        "Peace Building and Community Cohesion",
-        "Education Sector Empowerment",
-        "Environmental Restoration and Natural Resource Management",
-        "Training and Capacity Building"
-    ]
+    // const programs = [
+    //     "Peace Building and Community Cohesion",
+    //     "Education Sector Empowerment",
+    //     "Environmental Restoration and Natural Resource Management",
+    //     "Training and Capacity Building"
+    // ]
 
     return (
         <>
