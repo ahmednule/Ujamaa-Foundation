@@ -3,7 +3,7 @@ import { Typography } from "@mui/material"
 export default function OurVision(){
     return( 
             <div
-            className="max-w-96 m-6 bg-white border border-green-300 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 animate-grow"
+            className="max-w-96 m-6 bg-white border border-green-300 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-125 animate-grow"
           >
              <Typography
               variant="h6"
