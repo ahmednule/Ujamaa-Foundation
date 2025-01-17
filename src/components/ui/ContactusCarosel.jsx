@@ -3,7 +3,7 @@ export default function ContactusCarosel(){
         <div
         className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white"
         style={{
-            backgroundImage: "url('/image6.jpeg')",
+            backgroundImage: "url('/image14.jpg')",
             filter:"brightness(.5)"
         }}
     >
