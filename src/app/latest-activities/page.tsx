@@ -1,7 +1,9 @@
 "use client"
-import { Typography } from "@mui/material"
+import LatestactivitiesCarosel from "@components/components/ui/LatestactivitiesCarosel"
 export default function latestActivities(){
     return (
-       <Typography variant="h2">This is our latestActivities page</Typography>
+      <div>
+        <LatestactivitiesCarosel/>
+      </div>
     )
 }
