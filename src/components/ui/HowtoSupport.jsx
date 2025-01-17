@@ -20,7 +20,7 @@ export default function HowtoSupport() {
             key={index}
             className="border border-green-200 rounded-2xl p-6 flex items-start gap-4 shadow-sm hover:shadow-md transition-shadow"
           >
-            <div className="p-3 bg-orange-400 rounded-full text-white">
+            <div className="p-3 bg-blue-400 rounded-full text-white">
               {item.icon}
             </div>
             
