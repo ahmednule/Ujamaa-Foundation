@@ -1,6 +1,6 @@
 "use client"
 import { Typography } from "@mui/material"
-export default function (){
+export default function AboutusCarosel(){
     return (
         <div
         className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white"
