@@ -1,40 +1,38 @@
-"use client";
-
-import { Typography } from "@mui/material";
-
-export default function AboutUs() {
+"use client"
+export default function AboutUs () {
   return (
-    <div className="p-8 flex flex-col md:flex-row items-center gap-8">
-      <div className="flex-1">
-       <div className="relative h-40 ">
-       <Typography
-          variant="h5"
-          className="text-green-500 font-bold mb-1 absolute left-0 top-0 h-25 w-30"
-        >
-          Ujamaa Foundation, Sowing The Future 
-        </Typography>
-       </div>
-        <Typography
-          variant="h4"
-          className="text-[#ADD8E6] font-bold mb-7"
-        >
-          ABOUT US
-        </Typography>
-        <Typography variant="body1" className="leading-relaxed text-balance mt-5">
-          Ujamaa Foundation is a non-profit, community-based, and youth-led organization
-          registered in 2022 under the Department of Social Protection in Wajir County,
-          Kenya. The organization is committed to empowering communities, particularly in
-          North Eastern Kenya, through sustainable development initiatives.
-        </Typography>
-      </div>
+    <div className="max-w-7xl mx-auto p-8">
+      <div className="flex flex-col md:flex-row items-start gap-12">
+        <div className="flex-1 space-y-6">
+          <div className="space-y-4">
+            <h2 className="text-green-600 font-bold text-xl md:text-2xl">
+              Ujamaa Foundation, Sowing The Future
+            </h2>
+            
+            <h1 className="text-[#ADD8E6] font-bold text-3xl md:text-4xl">
+              ABOUT US
+            </h1>
+          </div>
 
-      <div className="flex-1">
-        <img
-          src="/image6.jpeg"
-          alt="Community Support"
-          className="w-full rounded-lg"
-        />
+          <div className="prose prose-lg">
+            <p className="text-gray-800 leading-relaxed">
+              Ujamaa Foundation is a non-profit, community-based, and youth-led organization 
+              registered in 2022 under the Department of Social Protection in Wajir County, 
+              Kenya. The organization is committed to empowering communities, particularly in 
+              North Eastern Kenya, through sustainable development initiatives.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex-1">
+          <img
+            src="/image6.jpeg"
+            alt="Community Support"
+            className="w-full rounded-lg shadow-lg object-cover"
+          />
+        </div>
       </div>
     </div>
   );
-}
+};
+
