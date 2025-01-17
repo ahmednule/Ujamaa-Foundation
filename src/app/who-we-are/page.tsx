@@ -5,6 +5,7 @@ import OurVision from "@components/components/ui/OurVision"
 import OurMission from "@components/components/ui/OurMission"
 import FutureGoals from "@components/components/ui/FutureGoals"
 import TargetBeneficiaries from "@components/components/ui/TargetBeneficiaries"
+import OurcoreValues from "@components/components/OurcoreValues"
 export default function whoWeare(){
     return(
         <>
@@ -16,6 +17,7 @@ export default function whoWeare(){
             <FutureGoals/>
         </div>
         <TargetBeneficiaries/>
+        <OurcoreValues/>
         </>
     )
 }
