@@ -3,6 +3,7 @@ import ReusableCarosel from "@components/components/ui/ReusableCarosel";
 import ReusableCard from "@components/components/ui/ReusableCard";
 import ResponsiveCards from "@components/components/ui/ResponsiveCards";
 import { peaceBuildingData } from "@components/lib/peaceBuildingData"
+import { peaceBuildingApproachData } from "@components/lib/peaceBuildingApproachData"
 
 export default function peaceBuilding() {
     return (
@@ -31,6 +32,18 @@ export default function peaceBuilding() {
                     ))}
                 </div>
             </div>
+            <h2 className="text-center text-green-500 text-3xl font-bold my-8">OUR APPROACH</h2>
+            <div className="px-8 m-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {peaceBuildingApproachData.map((data, index) => (
+                    <ResponsiveCards
+                        key={index}
+                        title={data.title}
+                        description={data.description}
+                    />
+                ))}
+            </div>
+        </div>
         </div>
     );
 }
