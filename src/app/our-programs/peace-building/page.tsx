@@ -20,15 +20,17 @@ export default function peaceBuilding() {
                 image="/image8.jpg"
             />
             <h2 className="text-center text-green-500 text-3xl font-bold my-8">HOW WE DO</h2>
-            <div className="grid gap-6">
-                {peaceBuildingData.map((data, index) => (
-                    <ResponsiveCards
-                        key={index}
-                        title={data.title}
-                        description={data.description}
-                    />
-                ))}
+            <div className="px-8 m-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {peaceBuildingData.map((data, index) => (
+                        <ResponsiveCards
+                            key={index}
+                            title={data.title}
+                            description={data.description}
+                        />
+                    ))}
                 </div>
+            </div>
         </div>
     );
 }
