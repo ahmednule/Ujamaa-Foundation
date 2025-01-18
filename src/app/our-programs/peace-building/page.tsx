@@ -1,27 +1,34 @@
-"use client"
-import ReusableCarosel from "@components/components/ui/ReusableCarosel"
-import ReusableCard from "@components/components/ui/ReusableCard"
-import ResponsiveCards from "@components/components/ui/ResponsiveCards"
-export default function peaceBuilding(){
-    return(
+"use client";
+import ReusableCarosel from "@components/components/ui/ReusableCarosel";
+import ReusableCard from "@components/components/ui/ReusableCard";
+import ResponsiveCards from "@components/components/ui/ResponsiveCards";
+import { peaceBuildingData } from "@components/lib/peaceBuildingData"
+
+export default function peaceBuilding() {
+    return (
         <div>
             <ReusableCarosel
-            image="image8.jpg"
-            heading="Together We Rise, Together we Thrive"
+                image="image8.jpg"
+                heading="Together We Rise, Together We Thrive"
             />
             <ReusableCard
-            heading="Peace Building among Communities"
-            content="Ujamaa is fostering peace within communities by empowering youth to become leaders and agents of positive change.
-             The foundation focuses on initiatives such as roundtable discussions, training sessions, and capacity-building efforts.
-              It actively engages with the community, particularly youth and women, through education and empowerment programs. 
-            A key achievement includes providing financial literacy training, resulting in 40 graduates, both locals and non-locals, under Ujamaa’s guidance."
-            image="/image8.jpg"
+                heading="Peace Building among Communities"
+                content="Ujamaa is fostering peace within communities by empowering youth to become leaders and agents of positive change.
+                         The foundation focuses on initiatives such as roundtable discussions, training sessions, and capacity-building efforts.
+                         It actively engages with the community, particularly youth and women, through education and empowerment programs.
+                          A key achievement includes providing financial literacy training, resulting in 40 graduates, both locals and non-locals, under Ujamaa's guidance."
+                image="/image8.jpg"
             />
-            <ResponsiveCards
-            heading="HOW WE DO"
-            title='Youth Empowerement'
-            description='This is jus a test description'
-            />
+            <h2 className="text-center text-green-500 text-3xl font-bold my-8">HOW WE DO</h2>
+            <div className="grid gap-6">
+                {peaceBuildingData.map((data, index) => (
+                    <ResponsiveCards
+                        key={index}
+                        title={data.title}
+                        description={data.description}
+                    />
+                ))}
+                </div>
         </div>
-    )
+    );
 }

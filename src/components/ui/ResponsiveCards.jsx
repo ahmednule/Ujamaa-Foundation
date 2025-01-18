@@ -1,13 +1,11 @@
+"use client"
 import { Typography } from "@mui/material";
 import PropTypes from "prop-types";
 
-export default function ResponsiveCards({heading, title, description}) {
-    console.log({heading, title, description})
+export default function ResponsiveCards({title, description}) {
+    console.log({title, description})
     return (
         <div className="p-8">
-            <Typography variant="h4" className="text-center m-11">
-              <span className="text-green-600">{heading} </span>  
-            </Typography>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-4 gap-6">
                     <div 
                         className="bg-white border border-green-300 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
@@ -31,7 +29,8 @@ export default function ResponsiveCards({heading, title, description}) {
 }
 
 ResponsiveCards.propTypes={
-    heading:PropTypes.string.isRequired,
+    
     title:PropTypes.string.isRequired,
-    description:PropTypes.string.isRequired
+    description:PropTypes.string.isRequired,
+   
 }
