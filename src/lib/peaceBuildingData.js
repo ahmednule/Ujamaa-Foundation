@@ -11,8 +11,4 @@ export const peaceBuildingData = [
         title: "Women’s Empowerment",
         description: "We work towards creating opportunities for women to lead and impact their communities through education, skill-building workshops, and financial literacy programs."
     },
-    {
-        title: "Capacity Building",
-        description: "We provide various programs aimed at strengthening the skills and knowledge of individuals in the community, making them capable of managing and leading initiatives for positive change."
-    }
 ];
