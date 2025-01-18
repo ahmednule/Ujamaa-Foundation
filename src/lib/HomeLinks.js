@@ -1,6 +1,6 @@
 export const items = [
     {
-      src: "/image1.jpeg",
+      src: "/image3.jpeg",
       text: "Who We Are",
       description:
         "Learn more about our mission, vision, and the people driving positive change.",
@@ -11,10 +11,10 @@ export const items = [
       text: "Our Programs",
       description:
         "Discover the initiatives we run to promote peace, social justice, and development.",
-      link: "/our-programs",
+      link: "/our-programs/peace-building",
     },
     {
-      src: "/image3.jpeg",
+      src: "/image1.jpeg",
       text: "Latest Activities",
       description:
         "Stay up to date with our recent projects and the impact we're making worldwide.",

@@ -8,6 +8,7 @@ import KeyPrograms from "@components/components/KeyPrograms"
 import OurWork from "@components/components/ui/OurWork"
 import LatestNews from "@components/components/LatestNews"
 import TargetBeneficiaries from "@components/components/ui/TargetBeneficiaries"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
                     variant="default"
                     className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-full"
                   >
-                    <a href={item.link}>Discover More</a>
+                    <Link href={item.link}>Discover More</Link>
                   </Button>
                 </div>
               </div>
