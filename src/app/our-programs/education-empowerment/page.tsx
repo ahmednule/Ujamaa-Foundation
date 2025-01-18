@@ -25,29 +25,37 @@ export default function educationEmpowerement(){
         image="/image9.png"
                 />
          <h2 className="text-center text-green-500 text-3xl font-bold my-8">HOW WE DO</h2>
-                    <div className="px-8 m-6">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {educationEmpowermentData.map((data, index) => (
-                                <ResponsiveCards
-                                    key={index}
-                                    title={data.title}
-                                    description={data.description}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                    <h2 className="text-center text-green-500 text-3xl font-bold my-8">OUR APPROACH</h2>
-                    <div className="px-8 m-6">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {educationEmpowermentApproachData.map((data, index) => (
-                            <ResponsiveCards
-                                key={index}
-                                title={data.title}
-                                description={data.description}
-                            />
-                        ))}
-                    </div>
-                </div>
+        <div className="px-8 m-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {educationEmpowermentData.map((data, index) => (
+                    <ResponsiveCards
+                        key={index}
+                        title={data.title}
+                        description={data.description}
+                    />
+                ))}
+            </div>
+        </div>
+        <h2 className="text-center text-green-500 text-3xl font-bold my-8">OUR APPROACH</h2>
+        <div className="px-8 m-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {educationEmpowermentApproachData.map((data, index) => (
+                <ResponsiveCards
+                    key={index}
+                    title={data.title}
+                    description={data.description}
+                />
+            ))}
+        </div>
+    </div>
+    <ReusableCarosel
+    image="image18.jpg"
+    heading="Our Future Goals"
+    content="Ujamaa Foundation envisions a future where youth and women are empowered to lead sustainable development initiatives, 
+    every child has access to quality education, and communities thrive through peace, environmental restoration, and resource 
+    management."
+    button="Support Our Cause"
+    />
     </div>
     )
 }
