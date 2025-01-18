@@ -11,17 +11,13 @@ export default function environmentRestoration(){
           heading="For a Better Tomorrow"
           />
           <ReusableCard
-          heading="Education Sector Support"
-          content="Access to quality and affordable education is a fundamental right for every child in Kenya,
-          but for pastoralist children, this right is often difficult to achieve. Families face tough decisions
-           between sending their children to school and focusing on survival, with boys frequently tasked with herding 
-           livestock and girls responsible for fetching water and managing household chores. These challenges contribute to low literacy levels and 
-           high school dropout rates, which worsen during natural disasters like droughts.The Ujamaa Foundation has been making significant efforts
-            to address these barriers by ensuring that children remain in school, even during challenging times. Through the support of its members, 
-            the foundation has invested heavily in education and donated essential learning materials to schools like Biyaad Primary. 
-            This commitment aims to improve access to education and create opportunities for pastoralist children to break the cycle of poverty 
-            and achieve their potential."
-          image="/image15.jpg"
+          heading="Environmental restoration and natural resource management"
+          content="Restoring degraded areas and promoting sustainable management of shared resources is a key focus for Ujamaa Foundation. 
+          To achieve this, the foundation has implemented various activities, including tree planting initiatives aimed at improving natural resource management. 
+          Over the years, Ujamaa has been actively involved in planting trees in degraded areas within communities, as well as in public institutions like schools, 
+          hospitals, and administrative offices to enhance tree cover. 
+          The trees planted are mostly local species chosen for their resilience to dry conditions, ensuring that they thrive in these challenging environments."
+          image="/image13.jpg"
           />
         </div>
     )
