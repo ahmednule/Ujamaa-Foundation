@@ -7,11 +7,11 @@ const pages = [
     subMenu: [
       {
         label: 'Peace Building',
-        path: '/our-programs/peace-building-and-community-cohestion'
+        path: '/our-programs/peace-building'
       },
       {
         label: 'Education Empowerment',
-        path: '/our-programs/education-and-empowerment'
+        path: '/our-programs/education-empowerment'
       },
       {
         label: 'Environment Restoration',
@@ -19,7 +19,7 @@ const pages = [
       },
       {
         label: 'Training And Capacity',
-        path: '/our-programs/training-and-capacity',
+        path: '/our-programs/training-capacity',
       }
     ]
   },
