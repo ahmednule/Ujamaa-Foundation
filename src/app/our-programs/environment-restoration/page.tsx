@@ -3,7 +3,7 @@ import { Typography } from "@mui/material"
 export default function environmentRestoration(){
     return(
         <div>
-            <Typography variant="h3">This is the Education Empowerement Page</Typography>
+            <Typography variant="h3">This is the Environment and Respotation Page</Typography>
         </div>
     )
 }
