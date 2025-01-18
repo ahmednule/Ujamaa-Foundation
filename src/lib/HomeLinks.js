@@ -1,11 +1,17 @@
 export const items = [
-    {
-      src: "/image3.jpeg",
-      text: "Who We Are",
-      description:
-        "Learn more about our mission, vision, and the people driving positive change.",
-      link: "/who-we-are",
-    },
+  {
+    src: "/image6.jpeg",
+    text: "Home",
+    description: "Welcome to our homepage. Explore and learn more about us!",
+    link: "/",
+  },
+  {
+    src: "/image3.jpeg",
+    text: "Who We Are",
+    description:
+      "Learn more about our mission, vision, and the people driving positive change.",
+    link: "/who-we-are",
+  },
     {
       src: "/image2.jpeg",
       text: "Our Programs",
@@ -26,12 +32,5 @@ export const items = [
       description:
         "We'd love to hear from you! Reach out to us for inquiries, collaborations, or support.",
       link: "/contact-us",
-    },
-    {
-      src: "/image5.jpeg",
-      text: "Home",
-      description: "Welcome to our homepage. Explore and learn more about us!",
-      link: "/",
-    },
+    }
   ];
-  
