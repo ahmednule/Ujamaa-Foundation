@@ -1,9 +1,14 @@
 "use client"
-import { Typography } from "@mui/material"
+
+import ReusableCarosel from "@components/components/ui/ReusableCarosel"
+
 export default function trainingCapacity(){
     return(
         <div>
-            <Typography variant="h3">This is the Training and Capacity Building Page</Typography>
+            <ReusableCarosel
+            image="image16.jpg"
+            heading="Upskilling the Young Generation"
+            />
         </div>
     )
 }
