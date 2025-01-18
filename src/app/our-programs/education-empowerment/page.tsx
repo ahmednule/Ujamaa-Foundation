@@ -10,6 +10,8 @@ export default function educationEmpowerement(){
         <ReusableCarosel
         image="image7.jpg"
         heading="Sowing The Future"
+        button=''
+        content=''
         />
         <ReusableCard
         heading="Education Sector Support"
