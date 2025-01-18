@@ -13,6 +13,8 @@ export default function environmentRestoration(){
           <ReusableCarosel
           image="image15.jpg"
           heading="For a Better Tomorrow"
+        button=''
+        content=''
           />
           <ReusableCard
           heading="Environmental restoration and natural resource management"
