@@ -11,6 +11,8 @@ export default function peaceBuilding() {
             <ReusableCarosel
                 image="image8.jpg"
                 heading="Together We Rise, Together We Thrive"
+                 button=''
+                 content=''
             />
             <ReusableCard
                 heading="Peace Building among Communities"
