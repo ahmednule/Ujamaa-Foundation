@@ -2,6 +2,10 @@
 
 import ReusableCarosel from "@components/components/ui/ReusableCarosel"
 import ReusableCard from "@components/components/ui/ReusableCard"
+import ResponsiveCards from "@components/components/ui/ResponsiveCards"
+import {environmentRestorationData} from "@components/lib/environmentRestorationData" 
+import {environmentRestorationApproachData} from "@components/lib/environmentRestorationApproachData"
+
 
 export default function environmentRestoration(){
     return(
@@ -19,6 +23,30 @@ export default function environmentRestoration(){
           The trees planted are mostly local species chosen for their resilience to dry conditions, ensuring that they thrive in these challenging environments."
           image="/image13.jpg"
           />
+           <h2 className="text-center text-green-500 text-3xl font-bold my-8">HOW WE DO</h2>
+                              <div className="px-8 m-6">
+                                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                      {environmentRestorationData.map((data, index) => (
+                                          <ResponsiveCards
+                                              key={index}
+                                              title={data.title}
+                                              description={data.description}
+                                          />
+                                      ))}
+                                  </div>
+                              </div>
+                              <h2 className="text-center text-green-500 text-3xl font-bold my-8">OUR APPROACH</h2>
+                              <div className="px-8 m-6">
+                              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                  {environmentRestorationApproachData.map((data, index) => (
+                                      <ResponsiveCards
+                                          key={index}
+                                          title={data.title}
+                                          description={data.description}
+                                      />
+                                  ))}
+                              </div>
+                          </div>
         </div>
     )
 }
