@@ -1,6 +1,9 @@
 "use client"
 import ReusableCarosel from "@components/components/ui/ReusableCarosel"
 import ReusableCard from "@components/components/ui/ReusableCard"
+import ResponsiveCards from "@components/components/ui/ResponsiveCards"
+import {educationEmpowermentApproachData} from "@components/lib/educationEmpowerementApproachData"
+import {educationEmpowermentData} from "@components/lib/educationEmpowerementData"
 export default function educationEmpowerement(){
     return(
         <div>
@@ -21,6 +24,32 @@ export default function educationEmpowerement(){
         and achieve their potential."
         image="/image9.png"
                 />
+         <h2 className="text-center text-green-500 text-3xl font-bold my-8">HOW WE DO</h2>
+                    <div className="px-8 m-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {educationEmpowermentData.map((data, index) => (
+                                <ResponsiveCards
+                                    key={index}
+                                    title={data.title}
+                                    description={data.description}
+                                />
+                            ))}
+                        </div>
+                    </div>
+                    <h2 className="text-center text-green-500 text-3xl font-bold my-8">OUR APPROACH</h2>
+                    <div className="px-8 m-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {educationEmpowermentApproachData.map((data, index) => (
+                            <ResponsiveCards
+                                key={index}
+                                title={data.title}
+                                description={data.description}
+                            />
+                        ))}
+                    </div>
+                </div>
+
+
     </div>
     )
 }
