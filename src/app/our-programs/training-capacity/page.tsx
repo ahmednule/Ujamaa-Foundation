@@ -12,6 +12,8 @@ export default function trainingCapacity(){
             <ReusableCarosel
             image="image16.jpg"
             heading="Upskilling the Young Generation"
+             button=''
+             content=''
             />
             <ReusableCard
             heading="Trainings and capacity-building"
