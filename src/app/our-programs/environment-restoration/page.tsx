@@ -1,9 +1,14 @@
 "use client"
-import { Typography } from "@mui/material"
+
+import ReusableCarosel from "@components/components/ui/ReusableCarosel"
+
 export default function environmentRestoration(){
     return(
         <div>
-            <Typography variant="h3">This is the Environment and Page</Typography>
+          <ReusableCarosel
+          image="image15.jpg"
+          heading="For a Better Tomorrow"
+          />
         </div>
     )
 }
