@@ -36,9 +36,26 @@ export default function Home() {
                   <Button
                     asChild
                     variant="default"
-                    className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-full"
+                    className="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center gap-2 text-base"
                   >
-                    <Link href={item.link}>Discover More</Link>
+                    <Link href={item.link} className="flex items-center gap-2">
+                      Discover More
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="20" 
+                        height="20" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        className="transition-transform duration-300 group-hover:translate-x-1"
+                      >
+                        <path d="M5 12h14"/>
+                        <path d="m12 5 7 7-7 7"/>
+                      </svg>
+                    </Link>
                   </Button>
                 </div>
               </div>
