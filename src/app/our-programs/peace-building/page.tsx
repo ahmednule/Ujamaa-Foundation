@@ -44,6 +44,14 @@ export default function peaceBuilding() {
                 ))}
             </div>
         </div>
+        <ReusableCarosel
+                    image="image18.jpg"
+                    heading="Our Future Goals"
+                    content="Ujamaa Foundation envisions a future where youth and women are empowered to lead sustainable development initiatives, 
+                    every child has access to quality education, and communities thrive through peace, environmental restoration, and resource 
+                    management."
+                    button="Support Our Cause"
+                    />
         </div>
     );
 }
