@@ -1,6 +1,7 @@
 "use client"
 import ReusableCarosel from "@components/components/ui/ReusableCarosel"
 import ReusableCard from "@components/components/ui/ReusableCard"
+import ResponsiveCards from "@components/components/ui/ResponsiveCards"
 export default function peaceBuilding(){
     return(
         <div>
@@ -15,6 +16,11 @@ export default function peaceBuilding(){
               It actively engages with the community, particularly youth and women, through education and empowerment programs. 
             A key achievement includes providing financial literacy training, resulting in 40 graduates, both locals and non-locals, under Ujamaa’s guidance."
             image="/image8.jpg"
+            />
+            <ResponsiveCards
+            heading="HOW WE DO"
+            title='Youth Empowerement'
+            description='This is jus a test description'
             />
         </div>
     )

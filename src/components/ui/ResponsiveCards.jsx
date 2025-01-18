@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import PropTypes from "prop-types";
 
 export default function ResponsiveCards({heading, title, description}) {
+    console.log({heading, title, description})
     return (
         <div className="p-8">
             <Typography variant="h4" className="text-center m-11">
