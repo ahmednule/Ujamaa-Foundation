@@ -35,7 +35,7 @@ const DesktopNavigation = () => {
               anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
               transformOrigin={{ vertical: 'top', horizontal: 'left' }}
             >
-              <Box sx={{ py: 1 }}>
+              <Box sx={{ py: 1, borderRadius:"26px" }}>
                 {page.subMenu.map((item) => (
                   <MenuItem
                     key={item.path}
@@ -49,7 +49,7 @@ const DesktopNavigation = () => {
                       fontWeight: pathname === item.path ? 'bold' : 'normal',
                     }}
                   >
-                    {item.fullName || item.label}
+                    {item.label}
                   </MenuItem>
                 ))}
               </Box>
