@@ -21,7 +21,7 @@ const MobileNavigation = ({ isOpen, onToggle }) => {
       </IconButton>
       <Menu
         anchorReference="anchorPosition"
-        anchorPosition={{ top: 64, left: 0 }}
+        anchorPosition={{ top: 200, left: 0 }}
         open={isOpen}
         onClose={onToggle}
         PaperProps={{
@@ -69,7 +69,7 @@ const MobileNavigation = ({ isOpen, onToggle }) => {
                       borderBottom: '1px solid rgba(0,0,0,0.1)',
                     }}
                   >
-                    {item.fullName || item.label}
+                    {item.label}
                   </MenuItem>
                 ))}
               </Menu>
