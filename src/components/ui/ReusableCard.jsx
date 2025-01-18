@@ -24,7 +24,7 @@ export default function ReusableCard({ heading, content, image }) {
         <div className="flex-1">
           <Image
             src={image}
-            alt="Community Support"
+            alt="Ujamaa Foundation"
             width={600} 
             height={400} 
             className="w-full rounded-lg shadow-lg object-cover"
