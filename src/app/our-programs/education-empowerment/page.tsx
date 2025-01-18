@@ -48,8 +48,6 @@ export default function educationEmpowerement(){
                         ))}
                     </div>
                 </div>
-
-
     </div>
     )
 }
