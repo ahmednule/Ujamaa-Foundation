@@ -17,11 +17,11 @@ export async function sendContactMailConfirmation(name, email, phone, message) {
     try {
         const result = await transporter.sendMail({
             from: {
-                name: 'Ujamaa Foundation',
+                name: 'Ujamaa Website',
                 address: process.env.EMAIL_USER
             },
             to: process.env.EMAIL_USER,
-            subject: `New Contact Form Submission from ${name}`,
+            subject: `New Contact me Request from ${name}`,
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                     <div style="background-color: #f8fafc; padding: 16px; border-radius: 6px; margin-bottom: 20px;">
