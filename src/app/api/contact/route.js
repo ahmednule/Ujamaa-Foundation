@@ -20,11 +20,8 @@ export async function POST(request) {
       await sendContactMailConfirmation(
         fullName,
         email,
+        phone,
         subject,
-        `Message from: ${fullName}
-        Email: ${email}
-        Phone: ${phone}
-        Message: ${message}`
       );
     } catch (emailError) {
       console.error('Nodemailer error:', emailError);

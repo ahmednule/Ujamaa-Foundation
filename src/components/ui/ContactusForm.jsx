@@ -36,6 +36,7 @@ export default function ContactusForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus({ loading: true, error: null, success: false });
+    // console.log('Form data:::', formData)
 
     try {
       const response = await fetch('/api/contact', {
