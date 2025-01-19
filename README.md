@@ -1,4 +1,3 @@
-markdown
 # Ujamaa Foundation Website
 
 This is the official website for the Ujamaa Foundation, a community-based, youth-led organization in Wajir County. The website showcases the foundation's mission, programs, and achievements, and provides contact and donation functionality.
