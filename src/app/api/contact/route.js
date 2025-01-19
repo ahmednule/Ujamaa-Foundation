@@ -21,6 +21,7 @@ export async function POST(request) {
         fullName,
         email,
         phone,
+        message,
         subject,
       );
     } catch (emailError) {
