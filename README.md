@@ -46,7 +46,7 @@ Ensure you have the following installed:
 First, clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/ujamaa-foundation.git
+git clone https://github.com/ahmednule/Ujamaa-Foundation.git
 cd ujamaa-foundation
 ```
 
