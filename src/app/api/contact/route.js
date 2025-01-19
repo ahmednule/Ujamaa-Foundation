@@ -14,7 +14,7 @@ export async function POST(request) {
     }
 
     const fullName = `${firstName} ${lastName}`;
-    const subject = `New Contact Form Submission from ${fullName}`;
+    const subject = `New Contact Me Request from ${fullName}`;
     
     try {
       await sendContactMailConfirmation(
