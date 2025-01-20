@@ -2,6 +2,7 @@
 import { Typography } from "@mui/material";
 import {Card, CardHeader, CardContent, Button} from "@mui/material";
 import { CardTitle } from "./card";
+import Link from "next/link";
 
 export default function TargetBeneficiaries() {
     return (
@@ -27,7 +28,9 @@ export default function TargetBeneficiaries() {
                         environmental protection and climate change mitigation and Peace justice and strong institutions.
                     </Typography>
                     <div className="flex flex-row-reverse mb-7 relative">
+                    <Link href="/contact-us">
                     <Button variant="contained" size="large">SUPPORT US</Button>
+                    </Link>
                     </div>
                    
                 </CardContent>
