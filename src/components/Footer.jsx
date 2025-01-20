@@ -10,7 +10,7 @@ import {programs} from "@components/lib/CardLinks"
 export default function Footer() {
     return (
         <>
-            <div className="bg-[#ADD8E6] py-8 px-4">
+            <div className="bg-green-700 py-8 px-4">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <Card className="h-full shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <CardContent className="p-6">

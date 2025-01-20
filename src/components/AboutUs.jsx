@@ -6,8 +6,9 @@ export default function AboutUs () {
         <div className="flex-1 space-y-6">
           <div className="space-y-4">
             <h2 className="text-green-600 font-bold text-xl md:text-2xl">
-              Ujamaa Foundation, Sowing The Future
+              Ujamaa Foundation
             </h2>
+            <h2 className="text-blue-500 font-bold text-xl"> Sowing The Future</h2>
             
             <h1 className="text-blue-600 font-bold text-3xl md:text-4xl">
               ABOUT US
