@@ -5,7 +5,7 @@ import CopyRight from "@components/components/ui/CopyRight"
 import Link from "next/link"
 import {socialLinks} from "@components/lib/socialLinks"
 import {contactInfo} from "@components/lib/contactInfo"
-import {programs} from "@components/lib/programs"
+import {programs} from "@components/lib/CardLinks"
 
 export default function Footer() {
     return (
@@ -38,9 +38,9 @@ export default function Footer() {
                             <List>
                                 {programs.map((program, index) => (
                                     <div key={index}>
-                                        <ListItemButton component={Link} href="#" className="hover:bg-gray-100">
+                                        <ListItemButton component={Link} href={program.link} className="hover:bg-gray-100">
                                             <ListItemText 
-                                                primary={program}
+                                                primary={program.title}
                                                 className="text-gray-700"
                                             />
                                         </ListItemButton>
