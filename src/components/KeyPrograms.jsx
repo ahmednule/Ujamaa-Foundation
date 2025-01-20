@@ -29,7 +29,7 @@ export default function KeyPrograms() {
           >
             <Typography
               variant="h6"
-              className="text-orange-600 font-bold mb-4"
+              className="text-blue-600 font-bold mb-4"
             >
               {program.title}
             </Typography>
