@@ -9,7 +9,7 @@ export default function LatestactivitiesCarosel (){
             filter:"brightness(.5)"
         }}
     >
-            <Typography variant="h2">Project/Activivities</Typography>
+            <Typography variant="h2" className="text-left">Latest Activivities</Typography>
         </div>
     )
 }
