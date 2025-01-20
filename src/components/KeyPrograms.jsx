@@ -2,6 +2,7 @@
 
 import { Typography } from "@mui/material";
 import { programs } from "@components/lib/CardLinks";
+import Link from "next/link";
 
 export default function KeyPrograms() {
   return (
@@ -38,12 +39,12 @@ export default function KeyPrograms() {
             >
               {program.description}
             </Typography>
-            <a
+            <Link
               href={program.link}
               className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition inline-block mt-2"
             >
               Read More →
-            </a>
+            </Link>
           </div>
         ))}
       </div>
