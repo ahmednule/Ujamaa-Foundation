@@ -18,7 +18,7 @@ export default function TargetBeneficiaries() {
                 variant="h3"
                 className="text-left font-bold text-2xl md:text-3xl lg:text-4xl drop-shadow-lg ml-3"
             >
-                <span className="text-green-400 ml-4">OUR TARGET </span>   <span className="text-green-900">  BENEFICIARIES</span>
+                <span className="text-blue-500 ml-4">OUR TARGET </span>   <span className="text-green-900">  BENEFICIARIES</span>
             </Typography>
                 </CardTitle>
                 <CardContent>
