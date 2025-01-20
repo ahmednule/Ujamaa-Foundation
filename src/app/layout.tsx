@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@components/components/Header"
 import Footer from "@components/components/Footer";
 import { Analytics } from "@vercel/analytics/react"
-
+import ContactInfo  from "@components/components/ui/ContactInfo"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,6 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Analytics/>
+        <ContactInfo/>
         <Header/>
         
        <main>{children}</main> 
