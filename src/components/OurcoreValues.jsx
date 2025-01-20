@@ -1,3 +1,4 @@
+"use client"
 import { Typography } from "@mui/material";
 import { OurcoreValuesData } from "@components/lib/OurcoreValuesData";
 
