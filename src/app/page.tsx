@@ -23,6 +23,7 @@ export default function Home() {
                   alt={`Carousel image ${index + 1}`}
                   width={1200}
                   height={600}
+                  quality={85}
                   className="w-full h-full object-cover brightness-75"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50"></div>
