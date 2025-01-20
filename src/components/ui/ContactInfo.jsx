@@ -1,6 +1,7 @@
 "use client";
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaSearch } from "react-icons/fa";
+import Link from "next/link";
 
 export default function ContactInfo() {
     return (
@@ -22,15 +23,15 @@ export default function ContactInfo() {
                 </div>
             </div>
             <div className="flex items-center space-x-4">
-                <a href="#" className="hover:text-gray-300">
+                <Link href="https://www.facebook.com/profile.php?id=100069361610849&mibextid=ZbWKwL" className="hover:text-gray-300" target="_blank">
                     <FaFacebookF />
-                </a>
-                <a href="#" className="hover:text-gray-300">
+                </Link>
+                <Link href="https://x.com/UjamaaFoundtion?t=Tip1_p69pLxAkDSnW7kGqA&s=09" target="_black" className="hover:text-gray-300">
                     <FaTwitter />
-                </a>
-                <a href="#" className="hover:text-gray-300">
+                </Link>
+                <Link href="#" className="hover:text-gray-300">
                     <FaInstagram />
-                </a>
+                </Link>
             </div>
         </div>
     );
