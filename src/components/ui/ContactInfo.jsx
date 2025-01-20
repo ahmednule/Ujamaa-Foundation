@@ -29,7 +29,7 @@ export default function ContactInfo() {
                 <Link href="https://x.com/UjamaaFoundtion?t=Tip1_p69pLxAkDSnW7kGqA&s=09" target="_black" className="hover:text-gray-300">
                     <FaTwitter />
                 </Link>
-                <Link href="#" className="hover:text-gray-300">
+                <Link href="https://www.instagram.com/accounts/edit/" target="_blank" className="hover:text-gray-300">
                     <FaInstagram />
                 </Link>
             </div>

@@ -76,6 +76,7 @@ export default function Footer() {
                                     <Link 
                                         key={index} 
                                         href={social.url}
+                                        target="_blank"
                                         className="text-gray-600 hover:text-primary transition-colors duration-300"
                                         aria-label={social.label}
                                     >
