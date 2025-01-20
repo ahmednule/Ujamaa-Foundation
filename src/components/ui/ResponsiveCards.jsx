@@ -7,7 +7,7 @@ export default function ResponsiveCards({title, description}) {
         <div className="bg-white border border-green-300 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
             <Typography
                 variant="h5"
-                className="text-green-500 font-semibold mb-4 text-center"
+                className="text-blue-500 font-semibold mb-4 text-center"
             >
                 {title}
             </Typography>

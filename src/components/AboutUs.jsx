@@ -9,7 +9,7 @@ export default function AboutUs () {
               Ujamaa Foundation, Sowing The Future
             </h2>
             
-            <h1 className="text-[#ADD8E6] font-bold text-3xl md:text-4xl">
+            <h1 className="text-blue-600 font-bold text-3xl md:text-4xl">
               ABOUT US
             </h1>
           </div>

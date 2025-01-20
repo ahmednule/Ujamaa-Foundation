@@ -8,7 +8,7 @@ export default function FutureGoals(){
       >
          <Typography
           variant="h6"
-          className="text-orange-600 font-bold mb-4 text-center"
+          className="text-blue-600 font-bold mb-4 text-center"
         >
          FUTURE GOALS
         </Typography>

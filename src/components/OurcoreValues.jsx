@@ -16,7 +16,7 @@ export default function OurcoreValues() {
                     >
                         <Typography 
                             variant="h5" 
-                            className="text-green-500 font-semibold mb-4 text-center"
+                            className="text-blue-500 font-semibold mb-4 text-center"
                         >
                             {item.value}
                         </Typography>

@@ -25,7 +25,7 @@ export default function HowtoSupport() {
             </div>
             
             <div>
-              <h3 className="text-green-600 text-2xl font-semibold mb-2">
+              <h3 className="text-blue-500 text-2xl font-semibold mb-2">
                 {item.value}
               </h3>
               <p className="text-gray-600 leading-relaxed">
