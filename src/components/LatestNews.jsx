@@ -16,7 +16,7 @@ export default function LatestNews() {
       <Typography variant="h3" color="green" className="text-center text-2xl mt-4">LATEST NEWS</Typography>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {cardData.map((card, index) => (
-      <Card key={index} sx={{ maxWidth: 500, borderRadius: "16px", marginLeft: "30px", backgroundColor:"green", color:"black"}} className="hover:scale-105">
+      <Card key={index} sx={{ maxWidth: 500, borderRadius: "16px", marginLeft: "30px"}} className="hover:scale-105">
              <CardMedia
              component="img"
              alt={card.title}
@@ -29,7 +29,7 @@ export default function LatestNews() {
             {card.description}
           </Typography>
         </CardContent>
-        <CardContent>
+        <CardContent >
           <Collapse in={expanded} timeout="auto" unmountOnExit>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 {card.expandedDescription}
