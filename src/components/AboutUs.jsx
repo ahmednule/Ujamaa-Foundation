@@ -16,8 +16,8 @@ export default function AboutUs () {
 
           <div className="prose prose-lg">
             <p className="text-gray-800 leading-relaxed">
-              Ujamaa Foundation is a non-profit, community-based, and youth-led organization 
-              registered in 2022 under the Department of Social Protection in Wajir County, 
+              <b>Ujamaa Foundation</b> is a non-profit, <b>community-based, and youth-led organization 
+              registered in 2022 </b> under the Department of Social Protection in Wajir County, 
               Kenya. The organization is committed to empowering communities, particularly in 
               North Eastern Kenya, through sustainable development initiatives.
             </p>
