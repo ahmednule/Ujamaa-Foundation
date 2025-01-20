@@ -1,4 +1,5 @@
-import {  Facebook, X, Instagram,LinkedInIcon  } from "@mui/icons-material"
+import {  Facebook, X, Instagram } from "@mui/icons-material"
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
  export const socialLinks = [
     { icon: <Facebook />, url: "https://www.facebook.com/profile.php?id=100069361610849&mibextid=ZbWKwL", label: "Facebook" },

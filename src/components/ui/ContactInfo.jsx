@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Link from "next/link";
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function ContactInfo() {
     const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +45,9 @@ export default function ContactInfo() {
                         </Link>
                         <Link href="https://www.instagram.com/ujamaa_foundation06" target="_blank" className="hover:text-gray-300">
                             <FaInstagram />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/ujamaa-foundation-816231348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="hover:text-gray-300">
+                            <LinkedInIcon />
                         </Link>
                     </div>
                 </div>
