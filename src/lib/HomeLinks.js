@@ -1,8 +1,8 @@
 export const items = [
   {
     src: "/image6.jpeg",
-    text: "Home",
-    description: "Welcome to our homepage. Explore and learn more about us!",
+    text: "ujamaa Foundation",
+    description: "Sowing the Future",
     link: "/",
   },
   {
