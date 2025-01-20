@@ -1,3 +1,4 @@
+"use client"
 import PropTypes from "prop-types"
 import { Typography } from "@mui/material"
 import Image from "next/image"

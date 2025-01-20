@@ -1,3 +1,4 @@
+"use client"
 import { Typography } from "@mui/material";
 import SchoolIcon from '@mui/icons-material/School';
 import DinnerDiningIcon from '@mui/icons-material/DinnerDining';
